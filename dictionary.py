@@ -1,35 +1,35 @@
 
-#  1) its mutable ,value can change 
-#  2) cannot contain duplicate key
-#  3) it is unorder pair
+ 1) its mutable ,value can change 
+ 2) cannot contain duplicate key
+ 3) it is unorder pair
 
 
-# mydic={'name':'sarthak','marks':23,'city':'pune','roll':23}
+mydic={'name':'sarthak','marks':23,'city':'pune','roll':23}
 
-# print(mydic)
+print(mydic)
 
-# insert
-# mydic['hello']=34
-# print(mydic)
+insert
+mydic['hello']=34
+print(mydic)
 
-# update
-# mydic.update( {'marks':11})
-# print(mydic)
+update
+mydic.update( {'marks':11})
+print(mydic)
 
-# reverse
-# dic= dict(reversed(list(mydic.items())))
-# print(dic)
+reverse
+dic= dict(reversed(list(mydic.items())))
+print(dic)
 
-# pop function 
+pop function 
 
-# mydic.pop('name')
-# print(mydic)
+mydic.pop('name')
+print(mydic)
 
-# only keys
-# print(mydic.keys())
+only keys
+print(mydic.keys())
 
-# mydics=input("enter the element ")
-# print(mydic[mydics])
+mydics=input("enter the element ")
+print(mydic[mydics])
 
 
 dic={}
